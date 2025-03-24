@@ -53,5 +53,5 @@ UPDATE books
 --- Problems & Sample - 8 
 -- Delete customers who haven't placed any orders.
 DELETE FROM customers
-WHERE id NOT IN (SELECT DISTINCT customer_id FROM orders);
+  WHERE id NOT IN (SELECT DISTINCT customer_id FROM orders);
 

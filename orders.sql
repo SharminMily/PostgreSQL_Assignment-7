@@ -14,5 +14,5 @@ INSERT INTO orders (customer_id, book_id, quantity, order_date) VALUES
 (1, 3, 2, '2024-03-05');
 
 
-----
+--- Data Read
 SELECT * FROM orders

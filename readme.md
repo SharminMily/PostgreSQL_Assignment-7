@@ -99,6 +99,6 @@ SUM(): নির্দিষ্ট কলামের মোট যোগফল 
 AVG(): নির্দিষ্ট কলামের গড় মান প্রদান করে।
 
 **উদাহরণ:** 
-SELECT COUNT(*) AS total_orders FROM orders;  
-SELECT SUM(total_price) AS total_revenue FROM orders;  
-SELECT AVG(total_price) AS average_order FROM orders; 
+SELECT COUNT(*) AS total_orders FROM orders;  -- মোট অর্ডার সংখ্যা
+SELECT SUM(total_price) AS total_revenue FROM orders;  -- মোট আয় 
+SELECT AVG(total_price) AS average_order FROM orders;   -- গড় অর্ডার মূল্য

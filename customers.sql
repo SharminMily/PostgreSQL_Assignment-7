@@ -6,6 +6,7 @@ CREATe TABLE customers (
     joined_date DATE DEFAULT CURRENT_DATE  
 )
 
+
 -- customers Data indertion
 INSERT INTO customers (name, email, joined_date) VALUES
 ('Alice', 'alice@email.com', '2023-01-10'),
@@ -13,5 +14,5 @@ INSERT INTO customers (name, email, joined_date) VALUES
 ('Charlie', 'charlie@email.com', '2023-06-20');
 
 
---
+--  Data Read
 SELECT * FROM customers

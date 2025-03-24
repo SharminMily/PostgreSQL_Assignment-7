@@ -10,8 +10,8 @@ CREATe TABLE books (
     published_year INT NOT NULL 
 )
 
-----  books Data indertion
 
+----  books Data indertion
 INSERT INTO books (title, author, price, stock, published_year) VALUES
 ('The Alchemist', 'Paulo Coelho', 9.99, 120, 1988),
 ('To Kill a Mockingbird', 'Harper Lee', 12.50, 80, 1960),
@@ -28,17 +28,6 @@ INSERT INTO books (title, author, price, stock, published_year) VALUES
 ('The Road', 'Cormac McCarthy', 10.00, 70, 2006),
 ('Life of Pi', 'Yann Martel', 12.99, 95, 2001),
 ('The Kite Runner', 'Khaled Hosseini', 11.99, 105, 2003);
-
-
--- UPDATE books
---   SET price = 500
---   WHERE title = 'The Hobbit'
-
-
--- Retrieve the most expensive book in the store.
-
-SELECT * FROM books
-WHERE price = (SELECT MAX(price) FROM books)
 
 
 -----Data Read
